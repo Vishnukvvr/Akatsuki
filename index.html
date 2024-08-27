@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akatsuki</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ninja-naruto" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        
+        }
+        @import url('https://fonts.cdnfonts.com/css/ninja-naruto');
+        body{
+            min-height: 100vh;
+            background-color: black;
+            color: white;
+           
+            font-family:'Ninja Naruto', sans-serif;
+        }
+        .navbar {
+            background-color: black;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: rgb(213, 33, 33);
+        }
+
+        .image-left, .image-right {
+            width: 100%;
+            height: auto; 
+            object-fit: cover;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; 
+        }
+
+        .gallery img {
+            width: calc(100% / 3 - 10px);
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px; 
+        }
+        .sensai{
+            border-radius: 50%;
+
+        }
+        .heading{
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .gallery img {
+                width: calc(100% / 2 - 10px); 
+            }
+        }
+
+        @media (max-width: 576px) {
+            .gallery img {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .text-right, .text-left {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="Akatsuki-PNG-Isolated-HD.png" alt="Logo" style="width: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Akatsuki</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Akatsuki Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#creator">Creator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bye">Bye</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="home">
+        <video src="akatsuki-naruto.3840x2160.mp4" autoplay loop muted width="100%" height="auto"></video>
+    </div>
+    <br>
+    <br>
+    <br>
+<div id="about">
+    <h1 class="heading">TEAM</h1>
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6 col-md-12">
+                <img src="pain.png" alt="first-image" class="image-left">
+            </div>
+            <div class="col-lg-6 col-md-12 text-right">
+                <h1>Pain Nagato(leader)</h1>
+                <h3>Originally from Amegakure (Village Hidden by Rain)</h3>
+                <p>Powers: Rinnegan abilities, including Six Paths of Pain (control over six bodies with various abilities), and powerful jutsu such as Chibaku Tensei (Planetary Devastation).</p>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 order-lg-2">
+                <img src="kona.png" alt="second-image" class="image-right">
+            </div>
+            <div class="col-lg-6 col-md-12 text-left order-lg-1">
+                <h1>Konan(co-leader)</h1>
+                <h3>Originally from Amegakure</h3>
+                <p>powers: Paper Jutsu (ability to manipulate and transform paper into various shapes and forms, including explosives).</p>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6 col-md-12">
+                <img src="Itachi Uchiha.png" alt="first-image" class="image-left">
+            </div>
+            <div class="col-lg-6 col-md-12 text-right">
+                <h1>Itachi Uchiha</h1>
+                <h3>Originally from Konohagakure (Village Hidden in the Leaves)</h3>
+                <p>Powers: Sharingan and its evolved form, the Mangekyō Sharingan, with abilities like Amaterasu (black flames), Tsukuyomi (powerful genjutsu), and Susanoo (a defensive and offensive avatar).</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 order-lg-2">
+                <img src="Kisame Hoshigaki.png" alt="second-image" class="image-right">
+            </div>
+            <div class="col-lg-6 col-md-12 text-left order-lg-1">
+                <h1>Kisame Hoshigaki</h1>
+                <h3> Originally from Kirigakure (Village Hidden in the Mist)</h3>
+                <p>Powers: Shark-like abilities, mastery of water-based jutsu, and wielding Samehada, a sword that absorbs chakra.</p>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6 col-md-12">
+                <img src="Deidara.png" alt="first-image" class="image-left">
+            </div>
+            <div class="col-lg-6 col-md-12 text-right">
+                <h1>Deidara</h1>
+                <h3>Originally from Iwagakure (Village Hidden in Stones)</h3>
+                <p>Powers: Clay-based explosives and artistry, capable of creating powerful bombs and constructs with his clay.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 order-lg-2">
+                <img src="Sasori.png" alt="second-image" class="image-right">
+            </div>
+            <div class="col-lg-6 col-md-12 text-left order-lg-1">
+                <h1>Sasori</h1>
+                <h3>Originally from Sunagakure (Village Hidden in the Sand)</h3>
+                <p>Powers: Mastery of puppetry, including the use of human puppets and poison-based attacks.</p>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6 col-md-12">
+                <img src="Hidan.png" alt="first-image" class="image-left">
+            </div>
+            <div class="col-lg-6 col-md-12 text-right">
+                <h1>Hidan</h1>
+                <h3>Originally from Yugakure (Village Hidden in Hot Water)</h3>
+                <p>Powers: Immortality and a unique jutsu where he can transfer damage inflicted on him to his opponent.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 order-lg-2">
+                <img src="Kakuzu.png" alt="second-image" class="image-right">
+            </div>
+            <div class="col-lg-6 col-md-12 text-left order-lg-1">
+                <h1>Kakuzu</h1>
+                <h3>Originally from Takigakure (Village Hidden by Waterfall)</h3>
+                <p>Powers: Ability to manipulate his body parts, multiple hearts for longevity, and various elemental jutsu.</p>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6 col-md-12">
+                <img src="obito.png" alt="first-image" class="image-left">
+            </div>
+            <div class="col-lg-6 col-md-12 text-right">
+                <h1>Tobi (Obito Uchiha)</h1>
+                <h3> Originally from Konohagakure</h3>
+                <p>Powers: Sharingan and later Rinnegan, abilities such as Kamui (space-time manipulation), and eventual access to the powers of the Sage of Six Paths.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 order-lg-2">
+                <img src="Zetsu.png" alt="second-image" class="image-right">
+            </div>
+            <div class="col-lg-6 col-md-12 text-left order-lg-1">
+                <h1>Zetsu</h1>
+                <h3>Originally from an unknown village</h3>
+                <p>Powers: Plant-based abilities, including merging with plants, tracking, and dividing into two personalities (Black Zetsu and White Zetsu).</p>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container mt-4">
+        <div class="row align-items-center mb-4">
+            <div class="col-lg-6 col-md-12">
+                <img src="Orochimaru.png" alt="first-image" class="image-left">
+            </div>
+            <div class="col-lg-6 col-md-12 text-right">
+                <h1>Orochimaru</h1>
+                <h3>Originally from Konohagakure</h3>
+                <p>Powers: Master swordsman known for wielding Kubikiribōchō, a sword that can regenerate itself by absorbing iron from its surroundings.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+ 
+    <div id="gallery" class="container mt-4">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="gallery">
+            <img src="pain.png" alt="Gallery Image 1">
+            <img src="kona.png" alt="Gallery Image 2">
+            <img src="Itachi Uchiha.png" alt="Gallery Image 3">
+            <img src="Kisame Hoshigaki.png" alt="Gallery Image 4">
+            <img src="Deidara.png" alt="Gallery Image 5">
+            <img src="Sasori.png" alt="Gallery Image 6">
+            <img src="Hidan.png" alt="Gallery Image 7">
+            <img src="Kakuzu.png" alt="Gallery Image 8">
+            <img src="obito.png" alt="Gallery Image 9">
+            <img src="Zetsu.png" alt="Gallery Image 10">
+            <img src="Orochimaru.png" alt="Gallery Image 11">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="creator">
+        <h1 class="heading">CREATOR</h1>
+        <div id="about" class="container mt-4">
+            <div class="row align-items-center mb-4">
+                <div class="col-lg-6 col-md-12">
+                    <img src="masashi sensai.jpg" alt="first-image" class="sensai">
+                </div>
+                <div class="col-lg-6 col-md-12 text-right">
+                    <h1>Masashi Kishimoto</h1>
+                    <p>The creator of Naruto is Masashi Kishimoto, a renowned Japanese manga artist. Born on November 8, 1974, in Nagi, Okayama Prefecture, Japan, Kishimoto developed a passion for drawing at an early age. He was inspired by Akira Toriyama's Dragon Ball and Katsuhiro Otomo's Akira, which greatly influenced his style and storytelling.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bye">
+        <img src="team1.jpg" alt="team" width="100%" height="auto">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
